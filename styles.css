@@ -42,7 +42,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 300px;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -99,25 +99,4 @@ img {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media (max-width: 600px) {
-  span {
-    display: block;
-    padding: 10px 0 0 0;
-    text-align: center;
-  }
-  .bottom-half {
-    flex-direction: column;
-  }
-  .location {
-    padding: 10px 0 20px;
-  }
-  .item {
-    margin: 10px 0;
-  }
-  .sub-heading {
-    margin-top: 3px;
-    font-size: 10px;
-  }
 }
